@@ -128,7 +128,7 @@ window.addEventListener('DOMContentLoaded', function () {
    if (JSON.parse(localStorage.getItem('CLIMHER')) != null) {
       setCurrentWeather(JSON.parse(localStorage.getItem('CLIMHER')).name);
    } else {
-      setCurrentWeather('jakarta');
+      setCurrentWeather('depok');
    }
 
    configureInterface();
